@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*html e id e css #
+em html é class
+css é . */
+
+body{
+    background-color:rgb(235, 165, 115) ;
+    font-family:'Times New Roman', Times, serif;
+
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(12, 60, 102);
+    text-decoration: overline;
+    font-size: 2em;
+    font-style: italic;
+}
+.basico{
+    text-align: left;
+    color: rgb(0, 87, 4);
+}
+.intermediario{
+    color: rgb(14, 94, 34);
+
+}
+.avancado{
+    color: rgb(14, 94, 34);
+
+}
+
+h1{
+    color: rgb(204, 85, 0);
+    text-align: left;
+}
+h2{
+    color: rgb(87, 62, 0);
+}
+.aprendendo{
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    
+   
+}
+.destaque{
+    background-color: blueviolet;
+}
+
