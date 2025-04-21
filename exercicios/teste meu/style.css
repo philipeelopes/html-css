@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+main{
+    
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/4325131.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow:hidden;
+}
+/*
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    
+}
+*/
+.bolhas{
+    position: absolute;
+    display: flex;
+}
+.bolhas span{
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 9, 139, 0.267);
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(0, 0, 139, 0.171),
+    0 0  50px rgba(0, 0, 139, 0.158),
+    0 0  100px rgba(0, 0, 139, 0.493);
+    animation: animar calc(150s / var(--i)) linear infinite;
+}
+
+@keyframes animar{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+
+
+}
+
+.bolhas span:nth-of-type(even){
+background: rgba(255, 255, 0, 0.274);
+box-shadow: 0 0 0 10px rgba(255, 255, 0, 0.151),
+    0 0  50px rgba(255, 255, 0, 0.192),
+    0 0  100px rgba(255, 255, 0, 0.178);
+
+}
+
+div.quadrado{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+   
+div.hh1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    background-color:rgb(3, 3, 43);
+    padding: 1px;
+}
+h2{
+    color: blue;
+    
+}
+p{
+    color: aliceblue;
+    
+    
+}
+
+
+
