@@ -1,17 +1,52 @@
 @charset "UTF-8";
-
+*{
+    padding: 0;
+    margin: 0;
+}
 main{
+    
+}
+header{
+    background-image: linear-gradient(to left, darkblue, black);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em ;
     
 }
 body{
     height: 100vh;
     background-color: black;
-    background-image: url(imagens/4325131.webp);
+    background-image:
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    overflow:hidden;
+    
 }
+nav{
+    background-image: linear-gradient(to left, darkblue), darkblue ;
+    padding: 20px;
+    box-shadow: 0px 2px 2px black;
+    margin-top: -50px;
+    }
+    nav > a {
+        
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition-duration: .5s;
+    }
+    nav > a:hover{
+        background-color: rgb(224, 224, 224);
+        color: rgb(4, 0, 255);
+        
+        }
 /*
 .container{
     position: relative;
@@ -49,35 +84,60 @@ body{
 }
 
 .bolhas span:nth-of-type(even){
-background: rgba(255, 255, 0, 0.274);
-box-shadow: 0 0 0 10px rgba(255, 255, 0, 0.151),
-    0 0  50px rgba(255, 255, 0, 0.192),
-    0 0  100px rgba(255, 255, 0, 0.178);
+background: rgba(255, 255, 255, 0.274);
+box-shadow: 0 0 0 10px rgba(155, 155, 155, 0.151),
+    0 0  50px rgba(187, 187, 187, 0.192),
+    0 0  100px rgba(207, 207, 207, 0.178);
 
 }
 
 div.quadrado{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    scroll-snap-align: start;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
     width: 400px;
-    padding: 10px;
     border-radius: 10px;
+    visibility: hidden;
+
 }
+.pagina:nth-child(even) {
+    background: #e0e0e0;
+  }
    
-div.hh1{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border-radius: 5px;
-    background-color:rgb(3, 3, 43);
-    padding: 1px;
-}
+
 h2{
-    color: blue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: linear-gradient(to right, darkblue, transparent);
+    padding: 10px;
+    margin: 10px;
     
 }
 p{
+    margin: 15px 0px 15px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
     color: aliceblue;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), transparent);
     
     
 }
+.headline{
+    visibility: hidden;
+
+}
+
+
+
+
 
 
 
