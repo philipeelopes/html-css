@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabelas</title>
+    <style>
+ body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8%;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px;
+    
+        }
+        col.cnome{
+            background-color: antiquewhite;
+        }
+        col.csexo{
+            background-color: beige;
+        }
+        col.cprof{
+            background-color: blanchedalmond;
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercicío de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Carmela</td>
+            <td>Feminino</td>
+            <td>21</td>
+            <td>advogada</td>
+        </tr>
+        <tr>
+            <td>Cleber</td>
+            <td>Masculino</td>
+            <td>45</td>
+            <td>Policial</td>
+        </tr>
+        <tr>
+            <td>Philipe</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Rayssa</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>Yasmin</td>
+            <td>Feminino</td>
+            <td>21</td>
+            <td>Médica</td>
+        </tr>
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
