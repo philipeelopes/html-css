@@ -19,7 +19,10 @@ html{
 
 header{
     background-color: antiquewhite;
-
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px ;
 }
 header > h1{
     text-align: center;
@@ -28,6 +31,7 @@ header > h1{
 menu ul{
     list-style-type: none;
     background-color: rgb(247, 198, 135);
+    border-radius: 10px;
     
     
 
